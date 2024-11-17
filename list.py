@@ -9,3 +9,14 @@ print(a)
 print(len(a))
 print('Toyota' in a) #是非題
 print('Skoda' in a)
+
+#字串當清單
+
+car = 'Audi'
+#['A','U','D','I']
+for c in car:
+	print(c)
+
+print(len(car))
+
+print('A' in car)
